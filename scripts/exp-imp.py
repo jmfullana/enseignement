@@ -6,9 +6,9 @@ y= np.sin(x)
 
 # implicity
 plt.plot(x,y,label="sin")
-plt.xlabel('x label')
-plt.ylabel('y label')
-plt.title("Simple Plot")
+plt.xlabel('x')
+plt.ylabel('y')
+plt.title("Plot")
 plt.legend()
 plt.show()
 
@@ -18,5 +18,5 @@ ax = plt.subplot(aspect=1)
 ax.plot(x,y,label="sin") 
 ax.set_xlabel('x')  # Add an x-label to the axes.
 ax.set_ylabel('y')  # Add a y-label to the axes.
-ax.set_title("Simple Plot")  # Add a title to the axes.
+ax.set_title("Plot")  # Add a title to the axes.
 ax.legend() # Add a legend.
